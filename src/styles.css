@@ -64,3 +64,9 @@ ol > li {
 .solution {
   padding: 0.5em;
 }
+
+.next {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
