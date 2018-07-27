@@ -2,6 +2,7 @@ import React from "react";
 
 import { TestInfo } from "../Core";
 import { Solution1 } from "../../Solution";
+import testData from "./test1.json";
 
 export default class Test1 extends React.Component {
   render() {
@@ -50,7 +51,7 @@ export default class Test1 extends React.Component {
 
         {!first && (
           <div className="solution">
-            <Solution1 users={data} />
+            <Solution1 users={testData.users} />
           </div>
         )}
       </div>

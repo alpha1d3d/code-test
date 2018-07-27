@@ -25,7 +25,6 @@ export default class TestInfo extends React.Component {
   render() {
     const { hidden } = this.state;
     const { children, title, first, location } = this.props;
-    console.log(this.props);
 
     return (
       <div className="info">
