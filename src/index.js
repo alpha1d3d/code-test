@@ -2,18 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
-import Main from "./Main";
+import { Start, Test1 } from "./Main";
 
 class App extends React.Component {
   render() {
-    return <Main />;
     return (
       <BrowserRouter>
-        <React.Fragment>
-          <Main />
-          <Route path="/start" component={Main} />
+        <Switch>
+          <Route path="/start" component={Start} />
+          <Route path="/test1" component={Test1} />
           <Redirect from="/" to="/start" />
-        </React.Fragment>
+        </Switch>
       </BrowserRouter>
     );
   }
