@@ -12,7 +12,7 @@ export default class TestInfo extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      hidden: !props.first && props.hidden
+      hidden: !props.first
     };
   }
 
@@ -45,8 +45,8 @@ export default class TestInfo extends React.Component {
         )}
 
         {first && (
-          <div onClick={this.handleClick} className="start-test">
-            <Link to={location.pathname}>start</Link>
+          <div onClick={this.handleClick} className="start">
+            <Link to={location.pathname}>Start</Link>
           </div>
         )}
       </div>
