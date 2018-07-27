@@ -11,7 +11,8 @@ export default class Test1 extends React.Component {
         {
           id: "integer",
           name: "string",
-          email: "string"
+          email: "string (nullable)",
+          start_date: "dd/mm/yyyy"
         }
       ]
     };
@@ -23,23 +24,26 @@ export default class Test1 extends React.Component {
         <TestInfo title="Test 1" first={first} location={location}>
           <p>
             Build a react component which expects a prop
-            <span className="code">users</span>, a list of users in the format
+            <span className="code">users</span>, a list of users in the format:
           </p>
 
           <pre>{JSON.stringify(data, undefined, 4)}</pre>
 
-          <p>The component should render a table with showing the user data.</p>
+          <p>
+            The component should render a table with headers "Id", "Name",
+            "Email" and "Start Date" and display a row for each user data.
+          </p>
 
           <h2>Rules</h2>
           <ol>
             <li>
               Write your solution in
-              <span className="code">src/Solution/solution1.js</span>
+              <span className="code">solution1.js</span>
             </li>
 
             <li>
-              The component should render a table with three columns:{" "}
-              <span className="code">id, name, email</span>.
+              The component should render a table with columns:
+              <span className="code">Id, Name, Email, Start Date</span>.
             </li>
 
             <li>

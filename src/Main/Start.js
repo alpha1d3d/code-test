@@ -20,8 +20,8 @@ export class Start extends React.Component {
         </p>
 
         <p>
-          Do not worry too much about formatting as codesandbox has automatic
-          formatting.
+          Do not worry too much about formatting but keep in mind that as
+          reviewers we need to be able to read the code.
         </p>
 
         <div className="start">

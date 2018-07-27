@@ -105,7 +105,7 @@
     {
       "id": 18,
       "name": "Jaime",
-      "email": "eget.metus.In@egestasascelerisque.edu",
+      "email": null,
       "start_date": "09/12/2017"
     },
     {
@@ -129,7 +129,7 @@
     {
       "id": 22,
       "name": "Sydnee",
-      "email": "Phasellus.libero@egestashendreritneque.edu",
+      "email": null,
       "start_date": "13/03/2018"
     },
     {
@@ -153,7 +153,7 @@
     {
       "id": 26,
       "name": "Aidan",
-      "email": "dis.parturient@eueuismodac.org",
+      "email": null,
       "start_date": "24/03/2019"
     },
     {
@@ -249,7 +249,7 @@
     {
       "id": 42,
       "name": "Yvette",
-      "email": "lorem.vitae.odio@eleifendnuncrisus.com",
+      "email": null,
       "start_date": "19/06/2018"
     },
     {
@@ -273,7 +273,7 @@
     {
       "id": 46,
       "name": "Chancellor",
-      "email": "Sed.congue@eu.co.uk",
+      "email": null,
       "start_date": "25/03/2018"
     },
     {
@@ -321,7 +321,7 @@
     {
       "id": 54,
       "name": "Gillian",
-      "email": "ut@eunullaat.ca",
+      "email": null,
       "start_date": "07/09/2017"
     },
     {
@@ -429,7 +429,7 @@
     {
       "id": 72,
       "name": "Sophia",
-      "email": "Vestibulum@erat.org",
+      "email": null,
       "start_date": "03/04/2019"
     },
     {
@@ -459,7 +459,7 @@
     {
       "id": 77,
       "name": "Maya",
-      "email": "ullamcorper.viverra@egestas.net",
+      "email": null,
       "start_date": "11/10/2017"
     },
     {
@@ -471,7 +471,7 @@
     {
       "id": 79,
       "name": "Jasmine",
-      "email": "ac@estvitaesodales.co.uk",
+      "email": null,
       "start_date": "19/10/2017"
     },
     {
@@ -525,7 +525,7 @@
     {
       "id": 88,
       "name": "Mari",
-      "email": "egestas.a.scelerisque@elitelitfermentum.org",
+      "email": null,
       "start_date": "19/04/2019"
     },
     {
@@ -537,7 +537,7 @@
     {
       "id": 90,
       "name": "Tamekah",
-      "email": "sed.leo.Cras@euarcuMorbi.net",
+      "email": null,
       "start_date": "21/10/2018"
     },
     {
@@ -567,7 +567,7 @@
     {
       "id": 95,
       "name": "Vincent",
-      "email": "a@egetmassa.com",
+      "email": null,
       "start_date": "15/12/2017"
     },
     {
