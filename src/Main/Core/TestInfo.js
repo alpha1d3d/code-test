@@ -1,9 +1,20 @@
 import React from "react";
+import classNames from "classnames";
+import { Link } from "react-router-dom";
 
 export default class TestInfo extends React.Component {
-  state = {
-    hidden: false
+  static defaultProps = {
+    hidden: true,
+    first: false,
+    title: ""
   };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      hidden: !props.first && props.hidden
+    };
+  }
 
   handleClick = () => {
     this.setState(prevState => {
@@ -13,7 +24,8 @@ export default class TestInfo extends React.Component {
 
   render() {
     const { hidden } = this.state;
-    const { children, title } = this.props;
+    const { children, title, first, location } = this.props;
+    console.log(this.props);
 
     return (
       <div className="info">
@@ -21,7 +33,23 @@ export default class TestInfo extends React.Component {
 
         {!hidden && children}
 
-        <div onClick={this.handleClick}>{hidden ? "Show" : "Hide"}</div>
+        {!first && (
+          <div
+            onClick={this.handleClick}
+            className={classNames(
+              "collapser",
+              hidden ? "collapsed" : "expanded"
+            )}
+          >
+            <div>toggle info</div>
+          </div>
+        )}
+
+        {first && (
+          <div onClick={this.handleClick} className="start-test">
+            <Link to={location.pathname}>start</Link>
+          </div>
+        )}
       </div>
     );
   }

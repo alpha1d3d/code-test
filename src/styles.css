@@ -38,3 +38,29 @@ pre {
 ol > li {
   margin-bottom: 1em;
 }
+
+.info .collapser {
+  cursor: pointer;
+  padding: 0.2em;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  color: #3700b3;
+}
+
+.info .start-test a {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  padding: 0.2em;
+  text-decoration: none;
+  text-align: center;
+  color: #3700b3;
+  text-transform: uppercase;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.solution {
+  padding: 0.5em;
+}

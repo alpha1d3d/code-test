@@ -1,6 +1,7 @@
 import React from "react";
 
 import { TestInfo } from "../Core";
+import { Solution1 } from "../../Solution";
 
 export default class Test1 extends React.Component {
   render() {
@@ -13,10 +14,12 @@ export default class Test1 extends React.Component {
         }
       ]
     };
+    const { location } = this.props;
+    const first = location.search === "?first";
 
     return (
       <div>
-        <TestInfo title="Test 1">
+        <TestInfo title="Test 1" first={first} location={location}>
           <p>
             Build a react component which expects a prop
             <span className="code">users</span>, a list of users in the format
@@ -44,6 +47,12 @@ export default class Test1 extends React.Component {
             </li>
           </ol>
         </TestInfo>
+
+        {!first && (
+          <div className="solution">
+            <Solution1 users={data} />
+          </div>
+        )}
       </div>
     );
   }

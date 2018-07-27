@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import { Start, Test1 } from "./Main";
 
+import "./styles.css";
+
 class App extends React.Component {
   render() {
     return (
